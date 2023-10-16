@@ -60,7 +60,7 @@ newspapers.forEach(newspaper => {
 })
 
 app.get('/', (req, res) => {
-    res.json('Welcome to my AI API')
+    res.json('Welcome to my AI news API')
 })
 
 app.get('/news', (req, res) => {
